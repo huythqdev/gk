@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         setcookie('id', $id, time() + 3600 * 24, '/');
         setcookie('name', $name, time() + 3600 * 24, '/');
 
-        header('Location: home.html');
+        header('Location: home.php');
     } else {
         echo 'Đăng nhập thất bại';
     }
